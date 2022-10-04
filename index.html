@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My_Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <!--Page Loader Start-->
+    <div class="page-loader">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    <!--Page Loader End-->
+
+    <!---Background Circles Start--->
+    <div class="bg-circles">
+        <div class="circle-1"></div>
+        <div class="circle-2"></div>
+        <div class="circle-3"></div>
+        <div class="circle-4"></div>
+    </div>
+    <!---Background Circles End--->
+
+    <!---Overlay Start--->
+    <div class="overlay"></div>
+    <!---Overlay End--->
+
+    <!--Main Start-->
+    <div class="main hidden">
+        <!--Header Start-->
+        <header class="header">
+            <div class="container">
+                <div class="row flex-end">
+                    <button type="button" class="nav-toggler">
+                        <span></span>
+                    </button>
+                    <nav class="nav">
+                        <div class="nav-inner">
+                            <ul>
+                                <li><a href="#home" class="nav-item link-item">home</a></li>
+                                <li><a href="#about" class="nav-item link-item">about</a></li>
+                                <li><a href="#portfolio" class="nav-item link-item">projects</a></li>
+                                <li><a href="#contact" class="nav-item link-item">contact</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--Header End-->
+
+        <!--Home Section Start-->
+        <section class="home-section align-items-center" id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="home-Text">
+                        <p class="p">Hi, I'm</p>
+                        <h1 class="h1">Pranav Kulkarni</h1>
+                        <h2 class="h2">A Passionate Python Programmer & Web Developer..</h2>
+                        <a href="#about" class="btn link-item">More about Me</a>
+                        <a href="#portfolio" class="btn link-item">projects</a>
+                    </div>
+                    <div class="home-img">
+                        <div class="img-box"><img src="MyPhoto.jpeg" alt="profie-img"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Home Section End-->
+
+        <!--About Section Start-->
+        <section class="about-section sec-padding" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>about me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="about-img">
+                        <div class="img-box">
+                            <img src="MyPhoto.jpeg" alt="about-img">
+                        </div>
+                    </div>
+                    <div class="about-text">
+                        <p>I have a flair for learning new things and
+                            persistence in problem solving. I strongly believe
+                            that with my skills, Analytical and Logical ability,
+                            Determination, Dedication, Commitment and
+                            Diligent efforts, I can prove to be an asset to any
+                            organization.</p>
+                        <h3>skills</h3>
+                        <div class="skills">
+                            <div class="skill-item">HTML</div>
+                            <div class="skill-item">CSS</div>
+                            <div class="skill-item">Javascript</div>
+                            <div class="skill-item">Python</div>
+                        </div>
+
+                        <div class="about-tabs">
+                            <button type="button" class="tab-item" data-target="#education">education</button>
+                            <!-- <button type="button" class="tab-item" data-target="#experience">experience</button> -->
+                        </div>
+                        <!--Education Start-->
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2018-2021</span>
+                                    <h4>bachelor of engineering - <span>KLE institute of technology</span></h4>
+                                    <p>I have Graduated my BE in Mechanical with an aggregate of 7.9 cgpa... </p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2014-2017</span>
+                                    <h4>Diploma - <span>CI munavalli polytechnic</span></h4>
+                                    <p>I have completed my Diploma in Mechanical with an aggregate of 75%...</p>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2014</span>
+                                    <h4>SSLC - <span>PG chopra high school</span></h4>
+                                    <p>I have completed my SSLC with an aggregate of 89%...</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--Education End-->
+
+                        <a download="" href="Resume.pdf" class="btn">download cv</a>
+                        <a href="#contact" class="btn link-item">contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About Section End-->
+
+        <!--Portfolio Section Start-->
+        <section class="portfolio-section sec-padding" id="portfolio">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>recent project</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <!--Portfolio Item Start-->
+                    <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="Sliding.png" alt="portfolio item thumbnail">
+                        </div>
+                        <h3 class="portfolio-item-title">sliding box</h3>
+                        <button class="btn view-project-btn" type="button">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>In this Project,i have placed "Four" buttons ie..Up,Down,Right,Left and given a box where user can move it in any of four direction by clicking the buttons... </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created- <span>august 2022</span></li>
+                                    <li>technologies used- <span>HTML,CSS,javascript</span></li>
+                                    <!-- <li>role- <span>frontend</span></li> -->
+                                    <li>view online- <span><a href="https://pranavskk.github.io/My_Project_Sliding_Box/" target="_blank">www.viewProjectOnline.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Item End-->
+
+                     <!--Portfolio Item Start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="Python.png" alt="portfolio item thumbnail">
+                        </div>
+                        <h3 class="portfolio-item-title">Python_Game Treasure_Hunter</h3>
+                        <button class="btn view-project-btn" type="button">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>In this Project,I have created a game in Python,where there are three character,they are person,Treasure,Devil
+                                    and space of blocks are designed in the game for positions of all three character and two stages are
+                                    set, the code is written is such a way that based on moment of man two types of result will be
+                                    displayed one is "Treasure is Hunted" means "won" and another one is "Devil has Eaten you" means
+                                    "lost"and program ends,for every position of "person" four possible ways are given and only of that will
+                                    lead him to next stage,for taking repetitive steps "loops" are used.
+                                    </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created- <span>july 2022</span></li>
+                                    <li>technologies used- <span>python</span></li>
+                                    <!-- <li>role- <span>frontend</span></li> -->
+                                    <li>view online- <span><a href="https://github.com/PranavSKK/Python_TreasureHunter_Game_Project/blob/master/assignment_devil.py" target="_blank">www.viewProjectOnline.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Item End-->
+
+                     <!--Portfolio Item Start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="Mouse.png" alt="portfolio item thumbnail">
+                        </div>
+                        <h3 class="portfolio-item-title">mouse & Cheese game</h3>
+                        <button class="btn view-project-btn" type="button">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>In this game i Have placed 3 character ie..Mouse,Cheese,Cat and only mouse is movable,i have arranged a situation where,if  position of mouse and cheese matches then cheese is eaten by mouse and if position of mouse and cat matches then mouse is eaten by cat.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created- <span>september 2022</span></li>
+                                    <li>technologies used- <span>HTML,CSS,javascript</span></li>
+                                    <!-- <li>role- <span>frontend</span></li> -->
+                                    <li>view online- <span><a href="https://pranavskk.github.io/Mouse_Cheese_Game/" target="_blank">www.viewProjectOnline.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Item End-->
+
+                     <!--Portfolio Item Start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="Covid.png" alt="portfolio item thumbnail">
+                        </div>
+                        <h3 class="portfolio-item-title">covid-19 stats</h3>
+                        <button class="btn view-project-btn" type="button">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>In this Project,Covid API is used to fetch the realtime Data related to "Corona" around the world and user can search the COVID related data of different countries. </p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created- <span>september 2022</span></li>
+                                    <li>technologies used- <span>HTML,CSS,javascript</span></li>
+                                    <!-- <li>role- <span>frontend</span></li> -->
+                                    <li>view online- <span><a href="https://pranavskk.github.io/My_Project_Covid_Stats_API/" target="_blank">www.viewProjectOnline.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Item End-->
+
+                     <!--Portfolio Item start-->
+                     <div class="portfolio-item">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="Secret.png" alt="portfolio item thumbnail">
+                        </div>
+                        <h3 class="portfolio-item-title">guessing a secret number_Game</h3>
+                        <button class="btn view-project-btn" type="button">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>In this Project,I have created a Game "Guessing Secret number",where machine guess's secret number which is kept by user,in this project every time machine guesses a nearest number to the user secret number,where user must conclude whether user num is greater or lesser than the machine number and i have given
+                                    "life or no of attempts" where machine should guess the secret number within those attempts for
+                                    "win" else it "loses"</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created- <span>september 2022</span></li>
+                                    <li>technologies used- <span>HTML,CSS,javascript</span></li>
+                                    <!-- <li>role- <span>frontend</span></li> -->
+                                    <li>view online- <span><a href="https://pranavskk.github.io/My_Project_Guessing_Secret_Num/" target="_blank">www.viewProjectOnline.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Item End-->
+                    
+                    <!--Portfolio Item Start-->
+                    <div class="portfolio-item ">
+                        <div class="portfolio-item-thumbnail">
+                            <img src="String.png" alt="portfolio item thumbnail">
+                        </div>
+                        <h3 class="portfolio-item-title">rotating string</h3>
+                        <button class="btn view-project-btn" type="button">view project</button>
+                        <div class="portfolio-item-details">
+                            <div class="description">
+                                <p>In this project the input string taken from user is displayed and two buttons are given ie.. Leftbtn and Rightbtn where user can rotate the string by clicking the given buttons.</p>
+                            </div>
+                            <div class="general-info">
+                                <ul>
+                                    <li>created- <span>august 2022</span></li>
+                                    <li>technologies used- <span>HTML,CSS,javascript</span></li>
+                                    <!-- <li>role- <span>frontend</span></li> -->
+                                    <li>view online- <span><a href="https://pranavskk.github.io/My_Project_String_Rotation/" target="_blank">www.viewProjectOnline.com</a></span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Portfolio Item End-->
+                </div>
+            </div>
+        </section>
+        <!--Portfolio Section End-->
+        
+        <!--Contact Section Start-->
+        <section class="contact-section  sec-padding" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="section-title">
+                        <h2>contact me</h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="input-group">
+                                    <input type="text" placeholder="Name" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Email" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <input type="text" placeholder="Subject" class="input-control" required>
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="Message" class="input-control" required></textarea>
+                                </div>
+                                <div class="submit-btn">
+                                    <button type="submit" class="btn">send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-item">
+                            <h3>Email</h3>
+                            <p>pranavkulkarni171@gmail.com</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Phone</h3>
+                            <p>+91 895158741</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>follow me</h3>
+                            <div class="social-links">
+                                <!-- <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                                <a href="#" target="_blank"><i class="fab fa-dribble"></i></a> -->
+                                <a href="https://github.com/PranavSKK" target="_blank"><i><img src="Github.svg" alt=""></i></a>
+                                <a href="https://www.linkedin.com/in/pranav-s-kulkarni-846009222/" target="_blank"><i><img src="Linkd.svg" alt=""></i></a>
+                                <a href="https://www.youtube.com/channel/UCR4fTr5HAes9Kg8aRry2Cqw/videos" target="_blank"><i><img src="Youtube.svg" alt=""></i></a>
+                                <a href="https://codepen.io/your-work/" target="_blank"><i><img src="Code.png" alt=""></i></a>
+                                <a href="https://www.instagram.com/invites/contact/?i=83j188vo35pw&utm_content=2su3y6o" target="_blank"><i><img src="Instagram.svg" alt=""></i></a>
+                                <a href="https://www.hackerrank.com/pranavkulkarni93" target="_blank"><i><img src="Hacker Rank.svg" alt=""></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Contact Section End-->
+
+    </div>
+    <!--Main End-->
+
+    <!--Portfolio Item Details Popup Start-->
+    <div class="portfolio-popup">
+        <div class="pp-inner">
+            <div class="pp-content">
+                <div class="pp-header">
+                    <button type="button" class="btn pp-close"><i>X</i></button>
+                    <div class="pp-thumbnail">
+                        <img src="check.jpg" alt="pp-thumbnail">
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="pp-body">
+                    <div class="description">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam vel autem distinctio eius natus modi cupiditate eum eligendi facilis. Aperiam ab expedita ipsam mollitia sunt fuga perspiciatis dolorem repudiandae reiciendis!</p>
+                    </div>
+                    <div class="general-info">
+                        <ul>
+                            <li>created- <span>4 dec 2022</span></li>
+                            <li>technologies used- <span>html,css,node js</span></li>
+                            <li>role- <span>frontend</span></li>
+                            <li>view online- <span><a href="#" target="_blank">www.domain.com</a></span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Portfolio Item Details Popup End-->
+    
+    <script>
+        window.addEventListener("load",()=>{
+            document.querySelector(".main").classList.remove("hidden");
+            document.querySelector(".home-section").classList.add("active");
+
+            /*---Page Loader---*/
+            document.querySelector(".page-loader").classList.add("fade-out");
+            setTimeout(()=>{
+                document.querySelector(".page-loader").style.display="none"
+            },600);
+        })
+
+        /*---Toggle Navbar----*/ 
+        const navToggler=document.querySelector(".nav-toggler");
+        navToggler.addEventListener("click",()=>{
+            // console.log('hi');
+            hideSection();
+            toggleNavbar();
+            document.body.classList.toggle("hide-scrolling");
+        })
+        function hideSection(){
+            document.querySelector("section.active").classList.toggle("fade-out")
+        }
+        function toggleNavbar(){
+            document.querySelector(".header").classList.toggle("active")
+        }
+
+        /*----Active Section---*/
+        document.addEventListener("click",(e)=>{
+            if(e.target.classList.contains("link-item") && e.target.hash !==''){
+                //activate the overlay to prevent multi clicks
+                document.querySelector(".overlay").classList.add("active")
+                navToggler.classList.add("hide")
+                // console.log(hash);
+                if(e.target.classList.contains("nav-item")){
+                    // console.log("true")
+                    toggleNavbar(); 
+                }
+                else{
+                    // console.log("false")
+                    hideSection()
+                    document.body.classList.add("hide-scrolling")
+                }
+                setTimeout(()=>{
+                    document.querySelector('section.active').classList.remove("active",'fade-out')
+                    document.querySelector(e.target.hash).classList.add('active')
+                    window.scrollTo(0,0);
+                    document.body.classList.remove("hide-scrolling")
+                    navToggler.classList.remove("hide")
+                    document.querySelector(".overlay").classList.remove("active")
+                },500)
+            }
+        })
+        document.addEventListener("click", (e) =>{
+            if(e.target.classList.contains("view-project-btn")){
+                togglePortfolioPopup();
+                document.querySelector(".portfolio-popup").scrollTo(0,0)
+                portfolioItemDetails(e.target.parentElement);
+            }
+        })
+        function togglePortfolioPopup(){
+            document.querySelector(".portfolio-popup").classList.toggle("open")
+            document.body.classList.toggle("hide-scrolling");
+            document.querySelector(".main").classList.toggle("fade-out");
+        }
+        document.querySelector(".pp-close").addEventListener("click",togglePortfolioPopup)
+        //hide popup when clicking outside of it
+        document.addEventListener("click",(e)=>{
+            // console.log(e.target)
+            if(e.target.classList.contains("pp-inner")){
+                togglePortfolioPopup()
+            };
+        })
+        function portfolioItemDetails(portfolioItem){
+            document.querySelector(".pp-thumbnail img").src=
+            portfolioItem.querySelector(".portfolio-item-thumbnail img").src;
+
+            document.querySelector(".pp-header h3").innerHTML =
+            portfolioItem.querySelector(".portfolio-item-title").innerHTML;
+
+            document.querySelector(".pp-body").innerHTML =
+            portfolioItem.querySelector(".portfolio-item-details").innerHTML;     
+
+        }
+    </script>
+</body>
+</html>
